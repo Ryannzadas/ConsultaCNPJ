@@ -37,10 +37,11 @@ venv\Scripts\activate     # Windows
 ```
 
 ```
+```
 ### 3. Instale as dependências
 ````
 pip install -r requirements.txt
-
+```
 
 ````
 ### 4. Execute o script passando o CNPJ
