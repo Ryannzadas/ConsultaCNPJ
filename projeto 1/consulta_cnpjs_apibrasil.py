@@ -21,7 +21,7 @@ import pandas as pd
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
-API_URL = "https://gateway.apibrasil.io/api/v2/dados/cnpj"
+API_URL = "https://brasilapi.com.br/api/cnpj/v1/{cnpj}"
 
 # --------------------------
 # Utilitários CNPJ
