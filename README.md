@@ -30,7 +30,7 @@ cd ConsultaCNPJ
 ```
 
 ### 2. Crie e ative um ambiente virtual (opcional, mas recomendado)
-   
+``` 
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
@@ -40,7 +40,7 @@ venv\Scripts\activate     # Windows
 ### 3. Instale as dependências
 ````
 pip install -r requirements.txt
-```
+
 
 ````
 ### 4. Execute o script passando o CNPJ
