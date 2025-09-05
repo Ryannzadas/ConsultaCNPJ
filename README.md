@@ -36,20 +36,19 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```
 
-```
-```
+
 ### 3. Instale as dependências
-````
+```
 pip install -r requirements.txt
 ```
 
-````
 ### 4. Execute o script passando o CNPJ
 ```
-python consulta_cnpj.py 00000000000191
+py "C:\Users\User\Desktop\projeto 1\ConsultaCNPJ\consulta_cnpjs_apibrasil.py" --input "C:\Users\User\Desktop\projeto 1\ConsultaCNPJ\cnpjs.txt"
 ````
 
 ## 📡 Exemplo de Saída
+```
 {
   "razao_social": "EMPRESA EXEMPLO LTDA",
   "nome_fantasia": "EXEMPLO",
@@ -64,7 +63,7 @@ python consulta_cnpj.py 00000000000191
   },
   "cnae_principal": "6201-5/01 - Desenvolvimento de programas de computador"
 }
-
+```
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas!
